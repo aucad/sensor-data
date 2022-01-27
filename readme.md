@@ -1,8 +1,8 @@
 # Sensor datasets
 
-This repository contains selected datasets, as described below:
+This repository contains selected datasets as described below:
 
-| Dataset                                                    | Directory                                          | Type                                      |  Original source  | 
+| Dataset                                                    | Directory                                          | Type                                      |  Source  | 
 |:-----------------------------------------------------------|:---------------------------------------------------|:------------------------------------------|:-----------------:|
 | MavLab Dataset                                             | [`MavLab/`](MavLab)                                | Vehicle Sensors                           |     [link][1]     | 
 | Activity Recognition Dataset in Home setting from MIT      | [`ActivityRec-MIT/`](ActivityRec-MIT)              | Activity Recognition                      |     [link][2]     |   
