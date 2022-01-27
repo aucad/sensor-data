@@ -31,8 +31,8 @@ Summary and description of datasets in this repository
 |     |                                                         |                                |       |         |            |
 |  6  | **[Malware on IoT Dataset Aposemat](malware)**          |                                |   -   |         | :question: |
 |     |                                                         |                                |       |         |            |
-|  7  | IoT user data locally generated at AU Lab               | _unavailable_                  |       |         | :question: |
-|  8  | [~~CityPulse Dataset~~][CityPulse]                      | _will not use_                 |       |         |            |
+|  7  | **IoT user data locally generated at AU Lab**           | _unavailable_                  |       |         | :question: |
+|  8  | **[~~CityPulse Dataset~~][CityPulse]**                  | _will not use_                 |       |         |            |
 
 
 **Notes:**
