@@ -1,29 +1,40 @@
 # Sensor datasets
 
-This repository contains selected datasets, as described below:
+Summary and description of datasets in this repository
 
-| Dataset                                                    | Directory                                          | Type                                      |  Original source  | 
-|:-----------------------------------------------------------|:---------------------------------------------------|:------------------------------------------|:-----------------:|
-| MavLab Dataset                                             | [`MavLab/`](MavLab)                                | Vehicle Sensors                           |     [link][1]     | 
-| Activity Recognition Dataset in Home setting from MIT      | [`ActivityRec-MIT/`](ActivityRec-MIT)              | Activity Recognition                      |     [link][2]     |   
-| Activity Recognition Dataset from University of Amsterdam  | [`ActivityRec-Amsterdam/`](ActivityRec-Amsterdam)  | Activity Recognition                      |     [link][3]     |
-| AMPds dataset                                              | [`AMPds/`](AMPds) (1)                              | Electricity, Water, Natural Gas           |     [link][4]     |
-| CityPulse Dataset                                          | (2)                                                | Traffic, Weather, Pollution, Parking      |     [link][5]     |
-| Stratosphere Laboratory’s Aposemat IoT-23                  | (2)                                                | Malicious and benign IoT network traffic  |     [link][6]     |
-| Malware on IoT Dataset Aposemat                            | (3)                                                | Mirai and Botnet                          |     [link][7]     |
-| IoT user data locally generated at AU Lab                  | (4)                                                | Sensor data stored in IoT mobile apps     |                   |
+| Dataset                                                 | Description                    | Files |    Rows | Anomalies  |   Labels   | 
+|:--------------------------------------------------------|:-------------------------------|:-----:|--------:|:----------:|:----------:|
+| **[MavLab Dataset](mavlab)**                            | Indoor sensor is on/off        |   2   |         | :question: |    :x:     |
+| --- [March](mavlab/2003_march.csv)                      | March 2003 readings            |       |    1192 |            |            |
+| --- [April](mavlab/2003_april.csv)                      | April 2003 readings            |       |    3015 |            |            | 
+|                                                         |                                |       |         |            |            |
+| **[Activity Recognition (MIT)](ar-mit)**                | Single-resident apartment data |   6   |         | :question: |    :x:     |
+| --- Subject 1                                           | Apartment 1                    |       |         |            |            |
+| --- --- [activity data](ar-mit/1_activities_data.csv)   | Activity readings              |       |    1475 |            |            |
+| --- --- [activities](ar-mit/1_activities.csv)           | List of activities             |       |      33 |            |            |
+| --- --- [sensors](ar-mit/1_sensors.csv)                 | List of sensors                |       |      76 |            |            |
+| --- Subject 2                                           | Apartment 2                    |       |         |            |            |
+| --- --- [activity data](ar-mit/2_activities_data.csv)   | Activity readings              |       |    1040 |            |            |
+| --- --- [activities](ar-mit/2_activities.csv)           | List of activities             |       |      35 |            |            |
+| --- --- [sensors](ar-mit/2_sensors.csv)                 | List of sensors                |       |      70 |            |            |
+|                                                         |                                |       |         |            |            |
+| **[Activity Recognition (U. of Amsterdam)](ar-ams)**    | Single-resident apartment data |   2   |         | :question: |    :x:     |
+| --- [activities](ar-ams/activities.csv)                 |                                |       |     246 |            |            |
+| --- [sensors](ar-ams/sensors.csv)                       |                                |       |    1320 |            |            |
+|                                                         |                                |       |         |            |            |
+| **[AMPds](ampds)**                                      | Utility meter readings         |  11   |         | :question: |    :x:     |
+| --- [Electricity_B1E](ampds/Electricity_B1E-1.csv)      | N Bedroom electricity          |       | 1051200 |            |            |
+|                                                         |                                |       |         |            |            |
+| **[Stratosphere Laboratory’s Aposemat IoT-23](iot-23)** |                                |   -   |         | :question: | :question: |
+|                                                         |                                |       |         |            |            |
+| **[Malware on IoT Dataset Aposemat](malware)**          |                                |   -   |         | :question: | :question: |
+|                                                         |                                |       |         |            |            |
+| IoT user data locally generated at AU Lab :question:    | _unavailable_                  |       |         | :question: |    :x:     |
+| ~~CityPulse Dataset~~                                   | _will not use_                 |       |         |            |            |
 
-- (1) - partial dataset
-- (2) - too large, download from original source
-- (3) - "You need authorization from the Stratosphere Lab to use these files."
-- (4) - unknown source
 
+**Notes:**
 
-[1]: http://casas.wsu.edu/datasets/mavlab.zip
-[2]: https://courses.media.mit.edu/2004fall/mas622j/04.projects/home/
-[3]: http://casas.wsu.edu/datasets/kasterenDataset.zip
-[4]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FIE0S4
-[5]: http://iot.ee.surrey.ac.uk:8080/datasets.html
-[6]: https://www.stratosphereips.org/datasets-iot23
-[7]: https://www.stratosphereips.org/datasets-iot
+- Some of these datasets are from here: <http://casas.wsu.edu/datasets/>
+- CityPulse: <http://iot.ee.surrey.ac.uk:8080/datasets.html/>
 
