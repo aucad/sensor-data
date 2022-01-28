@@ -17,11 +17,17 @@ More details and explanation of data and labels: <https://www.stratosphereips.or
 
 **Data files & Format**
 
-| Name                      | Device             | Capture Date         |
-|:--------------------------|:-------------------|:---------------------| 
-| CTU Honeypot Capture 4-1  | Philips HUE        | 2019-12-05-15-46-36  | 
-| CTU Honeypot Capture 5-1  | Amazon Echo        | 2019-01-03-20-02-04  |
-| CTU Honeypot Capture 7-1  | Somfy Door Lock    | 2019-07-09-11-28-26  |
+| Name                     | Details         |
+|:-------------------------|:----------------|
+| CTU Honeypot Capture 4-1 | Philips HUE     |
+| CTU Honeypot Capture 5-1 | Amazon Echo     |
+| CTU Honeypot Capture 7-1 | Somfy Door Lock |
+| CTU Malware Capture 8-1  | Hakai           |
+| CTU Malware Capture 20-1 | Torii           |
+| CTU-Malware-Capture-21-1 | Torii           | 
+| CTU-Malware-Capture-34-1 | Mirai           |
+| CTU-Malware-Capture-42-1 | Trojan          |
+| CTU-Malware-Capture-44-1 | Mirai           |
 
 **Dataset source**
 
