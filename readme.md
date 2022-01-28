@@ -28,9 +28,9 @@ Summary and description of datasets in this repository
 |       | — [Water WHW](ampds/Water_WHW-1.csv)                                      | Whole-House Water                  |       | 1051200 |                          |
 |       |                                                                           |                                    |       |         |                          |
 | **5** | **[Stratosphere Laboratory’s Aposemat IoT-23](iot-23)**                   | Network data (WireShark)           |   3   |         |        :question:        |
-|       | — [CTU-Honeypot-Capture-4-1](iot-23/CTU-Honeypot-Capture-4-1-labeled.csv) | IoT benign flows dataset (24h)     |       |     452 | :heavy_multiplication_x: |
-|       | — [CTU-Honeypot-Capture-5-1](iot-23/CTU-Honeypot-Capture-5-1-labeled.csv) | IoT benign flows dataset (5.4h)    |       |    1374 | :heavy_multiplication_x: |
-|       | — [CTU-Honeypot-Capture-7-1](iot-23/CTU-Honeypot-Capture-7-1-labeled.csv) | IoT benign flows dataset (5.4h)    |       |     130 | :heavy_multiplication_x: |
+|       | — [CTU-Honeypot-Capture-4-1](iot-23/CTU-Honeypot-Capture-4-1-labeled.csv) | benign flows (24h)                 |       |     452 | :heavy_multiplication_x: |
+|       | — [CTU-Honeypot-Capture-5-1](iot-23/CTU-Honeypot-Capture-5-1-labeled.csv) | benign flows (5.4h)                |       |    1374 | :heavy_multiplication_x: |
+|       | — [CTU-Honeypot-Capture-7-1](iot-23/CTU-Honeypot-Capture-7-1-labeled.csv) | benign flows (1.4h)                |       |     130 | :heavy_multiplication_x: |
 |       |                                                                           |                                    |       |         |                          |
 | **6** | **[Malware on IoT Dataset Aposemat](malware)**                            | Network data (WireShark)           |   1   |         |        :question:        |
 |       | — [CTU-IoT-Malware-Capture-34-1](malware/34-1-conn.log.labeled.csv)       | Labeled capture                    |       |   23145 |                          |
