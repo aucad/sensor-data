@@ -13,11 +13,15 @@ goal is to offer a large dataset of real and labeled IoT malware infections and
 IoT benign traffic for researchers to develop machine learning algorithms. This
 dataset and its research is funded by Avast Software, Prague.
 
-Details: https://www.stratosphereips.org/datasets-iot23/
-
-**Sensor layout**
+More details and explanation of data and labels: <https://www.stratosphereips.org/datasets-iot23/>
 
 **Data files & Format**
+
+| Name                      | Device             | Capture Date         |
+|:--------------------------|:-------------------|:---------------------| 
+| CTU Honeypot Capture 4-1  | Philips HUE        | 2019-12-05-15-46-36  | 
+| CTU Honeypot Capture 5-1  | Amazon Echo        | 2019-01-03-20-02-04  |
+| CTU Honeypot Capture 7-1  | Somfy Door Lock    | 2019-07-09-11-28-26  |
 
 **Dataset source**
 
