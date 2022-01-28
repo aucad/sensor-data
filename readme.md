@@ -39,4 +39,4 @@ Summary and description of datasets in this repository
 
 - Some of these datasets are from here: <http://casas.wsu.edu/datasets/>
 
-[CityPulse]: http://iot.ee.surrey.ac.uk:8080/datasets.html/
+[CityPulse]: http://iot.ee.surrey.ac.uk:8080/datasets.html
