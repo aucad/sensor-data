@@ -13,6 +13,54 @@ goal is to offer a large dataset of real and labeled IoT malware infections and
 IoT benign traffic for researchers to develop machine learning algorithms. This
 dataset and its research is funded by Avast Software, Prague.
 
+**Attribute descriptions**
+
+| Attribute      | Description                                                                | Type  |
+|----------------|----------------------------------------------------------------------------|-------|
+| ts             | Timestamp of the capture                                                   | int   |
+| uid            | ID of the capture                                                          | str   |
+| id_orig.h      | Originating IP where the attack happened                                   | str   |
+| id_orig.p      | Port used by the responder                                                 | int   |
+| id_resp.h      | IP address of the device on which capture happened.                        | str   |
+| id_resp.p      | Port used from the response from the device on which the capture happened. | int   |
+| proto          | Network protocol                                                           | str   |
+| service        | Application protocol                                                       | str   |
+| duration       | Duration of the transmission between device and attacker.                  | float |
+| orig_bytes     | Amount of data sent to the device                                          | int   |
+| resp_bytes     | Amount of data sent by the device                                          | int   |
+| conn_state     | State of the connection                                                    | str   |
+| local_orig     | the connection originated locally                                          | bool  |
+| local_resp     | Whether the response originated locally                                    | bool  |
+| missed_bytes   | Amount of missed bytes in a message                                        | int   |
+| history        | History of the state of the connection                                     | str   |
+| orig_pkts      | Amount of packets sent to the device                                       | int   |
+| orig_ip_bytes  | Amount of bytes sent to the device                                         | int   |
+| resp_pkts      | Amount of packets sent from the device                                     | int   |
+| resp_ip_bytes  | Amount of bytes sent from the device                                       | int   |
+| tunnel_parents | ID of connection if tunneled                                               | str   |
+| label          | Type of capture, benign or malicious                                       | str   |
+| detailed-label | Type of the malicious capture                                              | str   |
+
+**Label descriptions**
+
+| Label  | Description                                                                                                                                            |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Attack | An attack that cannot be identified.                                                                                                                   |
+| Benign | Traffic that is not suspicious.                                                                                                                        |
+| C&C    | “Command and Control” type attacks take control of the device to perform various episodes in the future.                                               |
+| FD     | The C&C server sends a file to the infected device                                                                                                     |
+| HB     | This label indicates that packets sent on this connection track the infected host by the C&C server.                                                   |
+| HB-A   | The C&C server checks the status of the infected device while the verification method remains unidentified.                                            |
+| HB-FD  | The C&C server checks the status of the infected device by sending small files.                                                                        |
+| Mirai  | Connections have characteristics of a Mirai botnet. This label is added when the flows have similar patterns as the most commonly known Mirai attacks. |
+| HPS    | Information is gathered from a device for a future attack.                                                                                             |
+| Torii  | The Torii botnet performs the attack.                                                                                                                  |
+| DDoS   | The infected device is performing a DDoS attack.                                                                                                       |
+| Okiru  | The Okiru botnet performs the attack.                                                                                                                  |
+
+FD = File Download, HB=Heart Beat, A=Attack, HPS=HorizontalPortScan, DDS=denial of a service attack
+
+
 More details and explanation of data and labels: <https://www.stratosphereips.org/datasets-iot23/>
 
 **Data files & Format**
