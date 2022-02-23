@@ -39,7 +39,7 @@ Summary and description of datasets in this repository
 |       | — [CTU Malware Capture 44-1](iot-23/CTU-Malware-Capture-44-1-labeled.csv)  | malicious flows (2h)               |       |     237 |
 |       |                                                                            |                                    |       |         |
 | **6** | **[Malware on IoT Dataset Aposemat](malware)**                             | **Network data (WireShark)**       |   1   |         |
-|       | — [CTU-IoT-Malware-Capture-34-1](malware/Malware_Capture-34-1-labeled.csv) | _likely same as IoT-23/34-1?_      |       |   23145 |
+|       | — [CTU-IoT-Malware-Capture-34-1](malware/Malware_Capture-34-1-labeled.csv) | _same as IoT-23/34-1_              |       |   23145 |
 |       |                                                                            |                                    |       |         |
 | **7** | **IoT user data locally generated at AU Lab**                              | _source?_                          |       |         |
 | **8** | **[~~CityPulse Dataset~~][CityPulse]**                                     | _will not use_                     |       |         |
