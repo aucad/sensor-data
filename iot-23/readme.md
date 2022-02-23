@@ -29,31 +29,31 @@ dataset and its research is funded by Avast Software, Prague.
 
 **Attribute descriptions**
 
-| Attribute         | Description                                                                 | Type     |
-|:------------------|:----------------------------------------------------------------------------|:---------|
-| `ts`              | Timestamp of the capture                                                    | `int`    |
-| `uid`             | ID of the capture                                                           | `str`    |
-| `id_orig.h`       | Originating IP where the attack happened                                    | `str`    |
-| `id_orig.p`       | Port used by the responder                                                  | `int`    |
-| `id_resp.h`       | IP address of the device on which capture happened.                         | `str`    |
-| `id_resp.p`       | Port used from the response from the device on which the capture happened.  | `int`    |
-| `proto`           | Network protocol                                                            | `str`    |
-| `service`         | Application protocol                                                        | `str`    |
-| `duration`        | Duration of the transmission between device and attacker.                   | `float`  |
-| `orig_bytes`      | Amount of data sent to the device                                           | `int`    |
-| `resp_bytes`      | Amount of data sent by the device                                           | `int`    |
-| `conn_state`      | State of the connection                                                     | `str`    |
-| `local_orig`      | the connection originated locally                                           | `bool`   |
-| `local_resp`      | Whether the response originated locally                                     | `bool`   |
-| `missed_bytes`    | Amount of missed bytes in a message                                         | `int`    |
-| `history`         | History of the state of the connection                                      | `str`    |
-| `orig_pkts`       | Amount of packets sent to the device                                        | `int`    |
-| `orig_ip_bytes`   | Amount of bytes sent to the device                                          | `int`    |
-| `resp_pkts`       | Amount of packets sent from the device                                      | `int`    |
-| `resp_ip_bytes`   | Amount of bytes sent from the device                                        | `int`    |
-| `tunnel_parents`  | ID of connection if tunneled                                                | `str`    |
-| `label`           | Type of capture, benign or malicious                                        | `str`    |
-| `detailed-label`  | Type of the malicious capture                                               | `str`    |
+| Attribute         | Type     | Description                                                                 |
+|:------------------|:---------|:----------------------------------------------------------------------------|
+| `ts`              | `int`    | Timestamp of the capture                                                    |
+| `uid`             | `str`    | ID of the capture                                                           |
+| `id_orig.h`       | `str`    | Originating IP where the attack happened                                    |
+| `id_orig.p`       | `int`    | Port used by the responder                                                  |
+| `id_resp.h`       | `str`    | IP address of the device on which capture happened.                         |
+| `id_resp.p`       | `int`    | Port used from the response from the device on which the capture happened.  |
+| `proto`           | `str`    | Network protocol                                                            |
+| `service`         | `str`    | Application protocol                                                        |
+| `duration`        | `float`  | Duration of the transmission between device and attacker.                   |
+| `orig_bytes`      | `int`    | Amount of data sent to the device                                           |
+| `resp_bytes`      | `int`    | Amount of data sent by the device                                           |
+| `conn_state`      | `str`    | State of the connection                                                     |
+| `local_orig`      | `bool`   | the connection originated locally                                           |
+| `local_resp`      | `bool`   | Whether the response originated locally                                     |
+| `missed_bytes`    | `int`    | Amount of missed bytes in a message                                         |
+| `history`         | `str`    | History of the state of the connection                                      |
+| `orig_pkts`       | `int`    | Amount of packets sent to the device                                        |
+| `orig_ip_bytes`   | `int`    | Amount of bytes sent to the device                                          |
+| `resp_pkts`       | `int`    | Amount of packets sent from the device                                      |
+| `resp_ip_bytes`   | `int`    | Amount of bytes sent from the device                                        |
+| `tunnel_parents`  | `str`    | ID of connection if tunneled                                                |
+| `label`           | `str`    | Type of capture, benign or malicious                                        |
+| `detailed-label`  | `str`    | Type of the malicious capture                                               |
 
 **Label descriptions**
 
