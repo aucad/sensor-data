@@ -44,7 +44,7 @@ Summary and description of datasets in this repository
 | **7** | **IoT user data locally generated at AU Lab**                              | _source?_                          |       |         |
 | **8** | **[~~CityPulse Dataset~~][CityPulse]**                                     | _will not use_                     |       |         |
 |       |                                                                            |                                    |       |         |
-| **9** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                   | **IoT device type prediction**     |       |
+| **9** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                   | **IoT device type prediction**     |  540  |
 
 
 **Notes:**
