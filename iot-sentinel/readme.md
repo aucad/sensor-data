@@ -12,35 +12,35 @@ _iotdevice-mac.txt contains the MAC address of the considered IoT device.
 
 **Devices**
 
-| Identifier        | Device                                                Model | WiFi    | ZigBee  | Ethernet | Z-Wave  | Other   |
-|-------------------|-------------------------------------------------------------|---------|---------|----------|---------|---------|
-| Aria              | Fitbit Aria WiFi-enabled scale                              | :check: | -       | -        | -       | -       |
-| HomeMaticPlug     | Homematic pluggable switch HMIP-PS                          | -       | -       | -        | -       | :check: |
-| Withings          | Withings Wireless Scale WS-30                               | :check: | -       | -        | -       | -       |
-| MAXGateway        | MAX! Cube LAN Gateway for MAX! Home automation sensors      | -       | -       | :check:  | -       | :check: |
-| HueBridge         | Philips Hue Bridge model 3241312018                         | -       | :check: | :check:  | -       | -       |
-| HueSwitch         | Philips Hue Light Switch PTM 215Z                           | -       | :check: | -        | -       | -       |
-| EdnetGateway      | Ednet.living Starter kit power Gateway                      | :check: | -       | -        | -       | :check: |
-| EdnetCam          | Ednet Wireless indoor IP camera Cube                        | :check: | -       | :check:  | -       | -       |
-| EdimaxCam         | Edimax IC-3115W Smart HD WiFi Network Camera                | :check: | -       | :check:  | -       | -       |
-| Lightify          | Osram Lightify Gateway                                      | :check: | :check: | -        | -       | -       |
-| WeMoInsightSwitch | WeMo Insight Switch model F7C029de                          | :check: | -       | -        | -       | -       |
-| WeMoLink          | WeMo Link Lighting Bridge model F7C031vf                    | :check: | :check: | -        | -       | -       |
-| WeMoSwitch        | WeMo Switch model F7C027de                                  | :check: | -       | -        | -       | -       |
-| D-LinkHomeHub     | D-Link Connected Home Hub DCH-G020                          | :check: | -       | :check:  | :check: | -       |
-| D-LinkDoorSensor  | D-Link Door & Window sensor                                 | -       | -       | -        | :check: | -       |
-| D-LinkDayCam      | D-Link WiFi Day Camera DCS-930L                             | :check: | -       | :check:  | -       | -       |
-| D-LinkCam         | D-Link HD IP Camera DCH-935L                                | :check: | -       | -        | -       | -       |
-| D-LinkSwitch      | D-Link Smart plug DSP-W215                                  | :check: | -       | -        | -       | -       |
-| D-LinkWaterSensor | D-Link Water sensor DCH-S160                                | :check: | -       | -        | -       | -       |
-| D-LinkSiren       | D-Link Siren DCH-S220                                       | :check: | -       | -        | -       | -       |
-| D-LinkSensor      | D-Link WiFi Motion sensor DCH-S150                          | :check: | -       | -        | -       | -       |
-| TP-LinkPlugHS110  | TP-Link WiFi Smart plug HS110                               | :check: | -       | -        | -       | -       |
-| TP-LinkPlugHS100  | TP-Link WiFi Smart plug HS100                               | :check: | -       | -        | -       | -       |
-| EdimaxPlug1101W   | Edimax SP-1101W Smart Plug Switch                           | :check: | -       | -        | -       | -       |
-| EdimaxPlug2101W   | Edimax SP-2101W Smart Plug Switch                           | :check: | -       | -        | -       | -       |
-| SmarterCoffee     | Smarter SmarterCoffee coffee machine SMC10-EU               | :check: | -       | -        | -       | -       |
-| iKettle2          | Smarter iKettle 2.0 water kettle SMK20-EU                   | :check: | -       | -        | -       | -       |
+| Identifier        | Device                                                Model | WiFi               | ZigBee             | Ethernet           | Z-Wave             | Other              |
+|-------------------|-------------------------------------------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| Aria              | Fitbit Aria WiFi-enabled scale                              | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| HomeMaticPlug     | Homematic pluggable switch HMIP-PS                          | -                  | -                  | -                  | -                  | :heavy_check_mark: |
+| Withings          | Withings Wireless Scale WS-30                               | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| MAXGateway        | MAX! Cube LAN Gateway for MAX! Home automation sensors      | -                  | -                  | :heavy_check_mark: | -                  | :heavy_check_mark: |
+| HueBridge         | Philips Hue Bridge model 3241312018                         | -                  | :heavy_check_mark: | :heavy_check_mark: | -                  | -                  |
+| HueSwitch         | Philips Hue Light Switch PTM 215Z                           | -                  | :heavy_check_mark: | -                  | -                  | -                  |
+| EdnetGateway      | Ednet.living Starter kit power Gateway                      | :heavy_check_mark: | -                  | -                  | -                  | :heavy_check_mark: |
+| EdnetCam          | Ednet Wireless indoor IP camera Cube                        | :heavy_check_mark: | -                  | :heavy_check_mark: | -                  | -                  |
+| EdimaxCam         | Edimax IC-3115W Smart HD WiFi Network Camera                | :heavy_check_mark: | -                  | :heavy_check_mark: | -                  | -                  |
+| Lightify          | Osram Lightify Gateway                                      | :heavy_check_mark: | :heavy_check_mark: | -                  | -                  | -                  |
+| WeMoInsightSwitch | WeMo Insight Switch model F7C029de                          | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| WeMoLink          | WeMo Link Lighting Bridge model F7C031vf                    | :heavy_check_mark: | :heavy_check_mark: | -                  | -                  | -                  |
+| WeMoSwitch        | WeMo Switch model F7C027de                                  | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| D-LinkHomeHub     | D-Link Connected Home Hub DCH-G020                          | :heavy_check_mark: | -                  | :heavy_check_mark: | :heavy_check_mark: | -                  |
+| D-LinkDoorSensor  | D-Link Door & Window sensor                                 | -                  | -                  | -                  | :heavy_check_mark: | -                  |
+| D-LinkDayCam      | D-Link WiFi Day Camera DCS-930L                             | :heavy_check_mark: | -                  | :heavy_check_mark: | -                  | -                  |
+| D-LinkCam         | D-Link HD IP Camera DCH-935L                                | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| D-LinkSwitch      | D-Link Smart plug DSP-W215                                  | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| D-LinkWaterSensor | D-Link Water sensor DCH-S160                                | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| D-LinkSiren       | D-Link Siren DCH-S220                                       | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| D-LinkSensor      | D-Link WiFi Motion sensor DCH-S150                          | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| TP-LinkPlugHS110  | TP-Link WiFi Smart plug HS110                               | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| TP-LinkPlugHS100  | TP-Link WiFi Smart plug HS100                               | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| EdimaxPlug1101W   | Edimax SP-1101W Smart Plug Switch                           | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| EdimaxPlug2101W   | Edimax SP-2101W Smart Plug Switch                           | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| SmarterCoffee     | Smarter SmarterCoffee coffee machine SMC10-EU               | :heavy_check_mark: | -                  | -                  | -                  | -                  |
+| iKettle2          | Smarter iKettle 2.0 water kettle SMK20-EU                   | :heavy_check_mark: | -                  | -                  | -                  | -                  |
 
 <!-- **Data files & Format** -->
 
