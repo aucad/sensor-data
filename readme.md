@@ -27,7 +27,7 @@ Summary and description of datasets in this repository
 |       | — [NaturalGas FRG](ampds/NaturalGas_FRG-1.csv)                             | Furnace Gas                        |       | 1051200 |
 |       | — [Water WHW](ampds/Water_WHW-1.csv)                                       | Whole-House Water                  |       | 1051200 |
 |       |                                                                            |                                    |       |         |
-| **5** | **[Stratosphere Laboratory’s Aposemat IoT-23](iot-23)**                    | **Network data (WireShark)**       |   9   |         |
+| **5** | **[Aposemat IoT-23](iot-23)**                                              | **Network data (WireShark)**       |   9   |         |
 |       | — [CTU-Honeypot-Capture-4-1](iot-23/CTU-Honeypot-Capture-4-1-labeled.csv)  | benign flows (24h)                 |       |     452 |
 |       | — [CTU-Honeypot-Capture-5-1](iot-23/CTU-Honeypot-Capture-5-1-labeled.csv)  | benign flows (5.4h)                |       |    1374 |
 |       | — [CTU-Honeypot-Capture-7-1](iot-23/CTU-Honeypot-Capture-7-1-labeled.csv)  | benign flows (1.4h)                |       |     130 |
@@ -43,6 +43,8 @@ Summary and description of datasets in this repository
 |       |                                                                            |                                    |       |         |
 | **7** | **IoT user data locally generated at AU Lab**                              | _source?_                          |       |         |
 | **8** | **[~~CityPulse Dataset~~][CityPulse]**                                     | _will not use_                     |       |         |
+|       |                                                                            |                                    |       |         |
+| **9** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                   | **IoT device type prediction**     |       |
 
 
 **Notes:**
