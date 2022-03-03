@@ -45,15 +45,8 @@ Summary and description of datasets in this repository
 |        |                                                                            |                                    |       |         |
 | **8**  | **[Mid-Atlantic CCDC](maccdc)**                                            | **Capture files (pcap)**           |   1   |         |
 |        | - [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                          |                                    |       |   20000 |
-|        |                                                                            |                                    |       |         |
-| **9**  | **IoT user data locally generated at AU Lab**                              | _source?_                          |       |         |
-|        |                                                                            |                                    |       |         |
-| **10** | **[~~CityPulse Dataset~~][CityPulse]**                                     | _will not use_                     |       |         |
-
 
 **Notes:**
 
 - Some of these datasets are from here: <http://casas.wsu.edu/datasets/>
 - Very large datasets (> 50 MB) are not included here (e.g. AMPds, Stratosphere) => download from source
-
-[CityPulse]: http://iot.ee.surrey.ac.uk:8080/datasets.html
