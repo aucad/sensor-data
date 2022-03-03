@@ -41,10 +41,11 @@ Summary and description of datasets in this repository
 | **6** | **[Malware on IoT Dataset Aposemat](malware)**                             | **Network data (WireShark)**       |   1   |         |
 |       | — [CTU-IoT-Malware-Capture-34-1](malware/Malware_Capture-34-1-labeled.csv) | _same as IoT-23/34-1_              |       |   23145 |
 |       |                                                                            |                                    |       |         |
-| **7** | **IoT user data locally generated at AU Lab**                              | _source?_                          |       |         |
-| **8** | **[~~CityPulse Dataset~~][CityPulse]**                                     | _will not use_                     |       |         |
+| **7** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                   | **IoT device type prediction**     |  540  |         |
 |       |                                                                            |                                    |       |         |
-| **9** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                   | **IoT device type prediction**     |  540  |
+| **8** | **IoT user data locally generated at AU Lab**                              | _source?_                          |       |         |
+|       |                                                                            |                                    |       |         |
+| **9** | **[~~CityPulse Dataset~~][CityPulse]**                                     | _will not use_                     |       |         |
 
 
 **Notes:**
