@@ -44,7 +44,7 @@ Summary and description of datasets in this repository
 | **7**  | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                   | **IoT device type prediction**     |  540  |         |
 |        |                                                                            |                                    |       |         |
 | **8**  | **[Mid-Atlantic CCDC](maccdc)**                                            | **Capture files (pcap)**           |   1   |         |
-|        | - [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                          |                                    |       |   20000 |
+|        | — [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                          |                                    |       |   20000 |
 
 **Notes:**
 
