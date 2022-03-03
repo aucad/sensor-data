@@ -49,4 +49,5 @@ Summary and description of datasets in this repository
 **Notes:**
 
 - Some of these datasets are from here: <http://casas.wsu.edu/datasets/>
-- Very large datasets (> 50 MB) are not included here (e.g. AMPds, Stratosphere) => download from source
+- network pcap files: <https://www.netresec.com/index.ashx?page=PcapFiles/>
+- Very large datasets (> 50 MB) are not included here => download from source
