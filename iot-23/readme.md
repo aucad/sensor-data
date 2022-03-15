@@ -26,7 +26,7 @@ dataset and its research is funded by Avast Software, Prague.
 | CTU-Malware-Capture-34-1 | Mirai           |  1923  |   21222   |     |   23145 |      8 / 92 |
 | CTU-Malware-Capture-42-1 | Trojan          |  4420  |     6     |     |    4426 |   99.8 / .2 |
 | CTU-Malware-Capture-44-1 | Mirai           |  211   |    26     |     |     237 |     90 / 10 |
-| CTU Malware Capture 1-1  | Hide and Seek   | 469275 |  539473   |     | 1008748 | 46.5 / 53.5 |
+| CTU-Malware-Capture-1-1  | Hide and Seek   | 469275 |  539473   |     | 1008748 | 46.5 / 53.5 |
 
 
 **Attribute descriptions**
