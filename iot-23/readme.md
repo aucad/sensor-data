@@ -15,17 +15,19 @@ dataset and its research is funded by Avast Software, Prague.
 
 **Data files & Format**
 
-| Name                     | Details         | Benign | Malicious |     | Total |     Split |
-|:-------------------------|:----------------|:------:|:---------:|-----|------:|----------:|
-| CTU Honeypot Capture 4-1 | Philips HUE     |  452   |     0     |     |   452 |   100 / 0 |
-| CTU Honeypot Capture 5-1 | Amazon Echo     |  1374  |     0     |     |  1374 |   100 / 0 |
-| CTU Honeypot Capture 7-1 | Somfy Door Lock |  130   |     0     |     |   130 |   100 / 0 |
-| CTU Malware Capture 8-1  | Hakai           |  2181  |   8222    |     | 10403 |   20 / 80 |
-| CTU Malware Capture 20-1 | Torii           |  3193  |    16     |     |  3209 | 99.5 / .5 |
-| CTU-Malware-Capture-21-1 | Torii           |  3272  |    14     |     |  3286 | 99.5 / .5 |
-| CTU-Malware-Capture-34-1 | Mirai           |  1923  |   21222   |     | 23145 |    8 / 92 |
-| CTU-Malware-Capture-42-1 | Trojan          |  4420  |     6     |     |  4426 | 99.8 / .2 |
-| CTU-Malware-Capture-44-1 | Mirai           |  211   |    26     |     |   237 |   90 / 10 |
+| Name                     | Details         | Benign | Malicious |     |   Total |       Split |
+|:-------------------------|:----------------|:------:|:---------:|-----|--------:|------------:|
+| CTU Honeypot Capture 4-1 | Philips HUE     |  452   |     0     |     |     452 |     100 / 0 |
+| CTU Honeypot Capture 5-1 | Amazon Echo     |  1374  |     0     |     |    1374 |     100 / 0 |
+| CTU Honeypot Capture 7-1 | Somfy Door Lock |  130   |     0     |     |     130 |     100 / 0 |
+| CTU Malware Capture 8-1  | Hakai           |  2181  |   8222    |     |   10403 |     20 / 80 |
+| CTU Malware Capture 20-1 | Torii           |  3193  |    16     |     |    3209 |   99.5 / .5 |
+| CTU-Malware-Capture-21-1 | Torii           |  3272  |    14     |     |    3286 |   99.5 / .5 |
+| CTU-Malware-Capture-34-1 | Mirai           |  1923  |   21222   |     |   23145 |      8 / 92 |
+| CTU-Malware-Capture-42-1 | Trojan          |  4420  |     6     |     |    4426 |   99.8 / .2 |
+| CTU-Malware-Capture-44-1 | Mirai           |  211   |    26     |     |     237 |     90 / 10 |
+| CTU Malware Capture 1-1  | Hide and Seek   | 469275 |  539473   |     | 1008748 | 46.5 / 53.5 |
+
 
 **Attribute descriptions**
 
