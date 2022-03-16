@@ -1,4 +1,4 @@
--# Strato-phere L-boratory’s Aposemat IoT-23
+# Stratophere Lboratory’s Aposemat IoT-23
 
 **Description**
 
