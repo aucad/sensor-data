@@ -46,7 +46,7 @@ replaced with null values.
 | `duration`        | `float`  | Duration of the transmission between device and attacker.                   |
 | `orig_bytes`      | `int`    | Amount of data sent to the device                                           |
 | `resp_bytes`      | `int`    | Amount of data sent by the device                                           |
-| `conn_state`      | `str`    | State of the connection                                                     |
+| `conn_state`      | `str`    | State of the connection                                                     | 
 | `local_orig`      | `bool`   | the connection originated locally                                           |
 | `local_resp`      | `bool`   | Whether the response originated locally                                     |
 | `missed_bytes`    | `int`    | Amount of missed bytes in a message                                         |
@@ -58,6 +58,20 @@ replaced with null values.
 | `tunnel_parents`  | `str`    | ID of connection if tunneled                                                |
 | `label`           | `str`    | Type of capture, benign or malicious                                        |
 | `detailed-label`  | `str`    | Type of the malicious capture                                               |
+
+**Attribute details**
+
+`conn_state` ([source](https://www.inet.tu-berlin.de/fileadmin/fg234_teaching/SS12/IM_SS12/im12_03_flow_bro.pdf#page=9)): 
+
+| value | meaning                                    |
+|:------|--------------------------------------------|
+| SF    | Normal establishment and termination       |
+| REJ   | Connection attempt rejected                |
+| S0    | Connection attempt seen, no reply          |
+| OTH   | No SYN seen, partial connection            |
+| RSTO  | Connection established, originator aborted |
+
+
 
 **Label descriptions**
 
