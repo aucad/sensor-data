@@ -65,8 +65,6 @@ Summary and description of datasets in this repository
 | [Kyoto][DS3]      |  Traditional  | 2015 | Botnet                                                                                    |
 | [NSL-KDD][DS1]    |  Traditional  | 2009 | DoS, Probe, User 2 Root and Remote to User                                                |
 
-- Papers: [WSN-DS](https://www.hindawi.com/journals/js/2016/4731953/), [SDN traffic](https://arxiv.org/pdf/1611.07400.pdf), [Mirai](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf), [BoT-IoT](https://www.sciencedirect.com/science/article/pii/S0167739X18327687), [Kitsune](https://arxiv.org/pdf/1802.09089.pdf)
-- By request: [IEEE BigData 2019 Cup](https://knowledgepit.ml/suspicious-network-event-recognition/)
 
 [DS1]: https://www.unb.ca/cic/datasets/nsl.html
 [DS2]: https://www.stratosphereips.org/datasets-ctu13
