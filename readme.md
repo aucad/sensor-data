@@ -46,6 +46,8 @@ Summary and description of datasets in this repository
 |       |                                                                             |                                    |       |         |
 | **8** | **[Mid-Atlantic CCDC](maccdc)**                                             | **Capture files (pcap)**           |   1   |         |
 |       | — [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                           |                                    |       |   20000 |
+|       |                                                                             |                                    |       |         |
+| **9** | ***[UNSW-NB15](unsw-nb15)                                                   | Network capture with attacks       |       |         |
 
 **Notes:**
 
@@ -62,7 +64,6 @@ Summary and description of datasets in this repository
 | [CTU-13][DS2]     |  Traditional  | 2011 | Botnet                                                                                    |
 | [Kyoto][DS3]      |  Traditional  | 2015 | Botnet                                                                                    |
 | [NSL-KDD][DS1]    |  Traditional  | 2009 | DoS, Probe, User 2 Root and Remote to User                                                |
-| [USNW-NB15][DS4]  |  Traditional  | 2015 | Backdoors, Fuzzers, DoS, Generic, Shell code, Reconnaissance, Worms, Exploits, Analysis   |
 
 - Papers: [WSN-DS](https://www.hindawi.com/journals/js/2016/4731953/), [SDN traffic](https://arxiv.org/pdf/1611.07400.pdf), [Mirai](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf), [BoT-IoT](https://www.sciencedirect.com/science/article/pii/S0167739X18327687), [Kitsune](https://arxiv.org/pdf/1802.09089.pdf)
 - By request: [IEEE BigData 2019 Cup](https://knowledgepit.ml/suspicious-network-event-recognition/)
@@ -70,7 +71,6 @@ Summary and description of datasets in this repository
 [DS1]: https://www.unb.ca/cic/datasets/nsl.html
 [DS2]: https://www.stratosphereips.org/datasets-ctu13
 [DS3]: http://www.takakura.com/Kyoto_data/
-[DS4]: https://research.unsw.edu.au/projects/unsw-nb15-dataset
 [DS5]: https://www.kaggle.com/datasets/cicdataset/cicids2017
 [DS6]: https://www.unb.ca/cic/datasets/ids-2018.html
 
