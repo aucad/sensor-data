@@ -19,7 +19,13 @@ features are described in UNSW-NB15_features.csv file.
 
 **Data files & Format**
 
-- Data converted to CSV format
+
+| Name        | Details | Benign | Malicious |     | Total | Split |
+|:------------|:--------|:------:|:---------:|-----|------:|------:|
+| UNSW-NB15_1 | sampled |        |     0     |     |  7000 | ? / ? |
+
+
+
 
 **Attribute descriptions**
 
