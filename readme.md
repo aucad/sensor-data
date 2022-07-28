@@ -47,7 +47,7 @@ Summary and description of datasets in this repository
 | **8** | **[Mid-Atlantic CCDC](maccdc)**                                             | **Capture files (pcap)**           |   1   |         |
 |       | — [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                           |                                    |       |   20000 |
 |       |                                                                             |                                    |       |         |
-| **9** | **[UNSW-NB15](unsw-nb15)**                                                  | Network capture with attacks       |       |         |
+| **9** | **[UNSW-NB15](unsw-nb15)**                                                  | **Network capture with attacks**   |       |         |
 
 **Notes:**
 
