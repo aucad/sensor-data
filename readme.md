@@ -48,7 +48,7 @@ Summary and description of datasets in this repository
 |       | — [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                           |                                    |       |   20000 |
 |       |                                                                             |                                    |       |         |
 | **9** | **[UNSW-NB15](unsw-nb15)**                                                  | **Network capture with attacks**   |       |         |
-|       | — [UNSW-NB15_1 (sampled)](unsw-nb15/unsw-nb15_1_sampled.csv)                |                                    |       |    7000 |
+|       | — [UNSW-NB15_1](unsw-nb15/unsw-nb15_1_sampled.csv)                          |                                    |       |    7000 |
 
 **Notes:**
 
