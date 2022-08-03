@@ -16,16 +16,19 @@ features are described in UNSW-NB15_features.csv file.
   UNSW_NB15_testing-set.csv respectively. The number of records in the training set is 175,341 records and the testing
   set is 82,332 records from the different types, attack and normal.
 
-
 **Data files & Format**
 
+| Name        | Benign | Malicious |     | Total |  Split |
+|:------------|:------:|:---------:|-----|------:|-------:|
+| UNSW-NB15_1 |  6796  |    204    |     |  7000 | 97 / 3 |
 
-| Name        | Details | Benign | Malicious |     | Total | Split |
-|:------------|:--------|:------:|:---------:|-----|------:|------:|
-| UNSW-NB15_1 | sampled |        |     0     |     |  7000 | ? / ? |
+**Preprocessing** 
 
-
-
+- in Weka: `MergeManyValues -C 1 -L other N-M` - collapses nominal values N-M into other category, applied to `proto` and `state`
+- replace missing `-` with `,,`
+- labels: 0 = Benign, 1 = Malicious
+- attributes (31): proto, state, dur, sbytes, dbytes, sloss, dloss, service, Dload, Spkts, Dpkts, swin, dwin, stcpb, dtcpb, smeansz, dmeansz, trans_depth, Sjit, Djit, Stime, Ltime, ct_flw_http_mthd, ct_srv_src, ct_srv_dst, ct_dst_ltm, ct_src_ ltm, ct_src_dport_ltm, ct_dst_sport_ltm, ct_dst_src_ltm, label
+- apply `NomialToBinary`
 
 **Attribute descriptions**
 
