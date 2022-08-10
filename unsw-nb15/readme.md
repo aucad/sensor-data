@@ -18,10 +18,10 @@ features are described in UNSW-NB15_features.csv file.
 
 **Data files & Format**
 
-| Name         | Benign | Malicious |     | Total |  Split |
-|:-------------|:------:|:---------:|-----|------:|-------:|
-| UNSW-NB15_1  |  6796  |    204    |     |  7000 | 97 / 3 |
-| Training 10K |  5000  |   5000    |     | 10000 |  50/50 |
+| Name         | Details                    | Benign | Malicious |     | Total |  Split |
+|:-------------|----------------------------|:------:|:---------:|-----|------:|-------:|
+| UNSW-NB15_1  | Sampled from partition \#1 |  6796  |    204    |     |  7000 | 97 / 3 |
+| Training 10K | Sampled from training.csv  |  5000  |   5000    |     | 10000 |  50/50 |
 
 **Preprocessing** 
 
