@@ -18,35 +18,29 @@ features are described in UNSW-NB15_features.csv file.
 
 **Data files & Format**
 
-| Name         | Details                    | Benign | Malicious |     | Total |  Split |
-|:-------------|----------------------------|:------:|:---------:|-----|------:|-------:|
-| UNSW-NB15_1  | Sampled from partition \#1 |  6796  |    204    |     |  7000 | 97 / 3 |
-| Training 10K | Sampled from training.csv  |  5000  |   5000    |     | 10000 |  50/50 |
+| Name         | Details                        | Benign | Malicious |     | Total |  Split |
+|:-------------|--------------------------------|:------:|:---------:|-----|------:|-------:|
+| UNSW-NB15_1  | Sampled from partition \#1     |  6796  |    204    |     |  7000 | 97 / 3 |
+| Training 10K | Sampled from 175K training set |  5000  |   5000    |     | 10000 |  50/50 |
 
 **Preprocessing** 
 
 - keep following attributes (31): 
 
   ```
-  C    ct_dst_ltm        ct_flw_http_mthd  
-       ct_dst_sport_ltm  ct_dst_src_ltm
-       ct_src_dport_ltm  ct_srv_dst        
-       ct_src_ ltm       ct_srv_src   
+  C    ct_dst_ltm        ct_flw_http_mthd     ct_dst_sport_ltm  ct_dst_src_ltm
+       ct_src_dport_ltm  ct_srv_dst           ct_src_ ltm       ct_srv_src   
      
-  D    dbytes            djit              
-       dload             dloss
-       dmeansz           dpkts             
-       dur               dtcpb             
+  D    dbytes            djit                 dload             dloss
+       dmeansz           dpkts                dur               dtcpb             
        dwin
      
   L    ltime             label
        
   P    proto                          
         
-  S    sbytes            service           
-       sjit              sloss 
-       smeansz           spkts             
-       state             stcpb             
+  S    sbytes            service              sjit              sloss 
+       smeansz           spkts                state             stcpb             
        stime             swin               
      
   T    trans_depth
