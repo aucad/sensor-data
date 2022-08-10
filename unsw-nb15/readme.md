@@ -18,13 +18,40 @@ features are described in UNSW-NB15_features.csv file.
 
 **Data files & Format**
 
-| Name        | Benign | Malicious |     | Total |  Split |
-|:------------|:------:|:---------:|-----|------:|-------:|
-| UNSW-NB15_1 |  6796  |    204    |     |  7000 | 97 / 3 |
+| Name         | Benign | Malicious |     | Total |  Split |
+|:-------------|:------:|:---------:|-----|------:|-------:|
+| UNSW-NB15_1  |  6796  |    204    |     |  7000 | 97 / 3 |
+| Training 10K |  5000  |   5000    |     | 10000 |  50/50 |
 
 **Preprocessing** 
 
-- keep following attributes (31): <br/>proto, state, dur, sbytes, dbytes, sloss, dloss, service, Dload, Spkts, Dpkts, swin, dwin, stcpb, dtcpb, smeansz, dmeansz, trans_depth, Sjit, Djit, Stime, Ltime, ct_flw_http_mthd, ct_srv_src, ct_srv_dst, ct_dst_ltm, ct_src_ ltm, ct_src_dport_ltm, ct_dst_sport_ltm, ct_dst_src_ltm, label
+- keep following attributes (31): 
+
+  ```
+  C    ct_dst_ltm        ct_flw_http_mthd  
+       ct_dst_sport_ltm  ct_dst_src_ltm
+       ct_src_dport_ltm  ct_srv_dst        
+       ct_src_ ltm       ct_srv_src   
+     
+  D    dbytes            djit              
+       dload             dloss
+       dmeansz           dpkts             
+       dur               dtcpb             
+       dwin
+     
+  L    ltime             label
+       
+  P    proto                          
+        
+  S    sbytes            service           
+       sjit              sloss 
+       smeansz           spkts             
+       state             stcpb             
+       stime             swin               
+     
+  T    trans_depth
+  ```  
+
 - in Weka: `MergeManyValues -C 1 -L other N-M` applied to `proto` and `state`
 - format labels: 0 = Benign, 1 = Malicious
 - replace missing `-` with `,,`
