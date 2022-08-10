@@ -28,8 +28,7 @@ features are described in UNSW-NB15_features.csv file.
 - keep following attributes (31): 
 
   ```
-  C    ct_dst_ltm :: ct_flw_http_mthd :: ct_dst_sport_ltm :: ct_dst_src_ltm
-       :: ct_src_dport_ltm :: ct_srv_dst :: ct_src_ltm :: ct_srv_src   
+  ct_  dst_ltm :: flw_http_mthd :: dst_sport_ltm :: dst_src_ltm :: src_dport_ltm :: srv_dst :: src_ltm :: srv_src   
      
   D    dbytes :: djit :: dload :: dloss :: dmeansz :: dpkts :: dur :: dtcpb :: dwin
      
