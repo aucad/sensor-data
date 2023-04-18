@@ -31,6 +31,22 @@ dataset and its research is funded by Avast Software, Prague.
 These files have been preprocessed: changed to CSV format, and missing values (`-`) have been
 replaced with null values.
 
+**Preprocessing**
+
+- in Weka: `MergeManyValues -C 1 -L other (index range)` applied to `proto` and `conn_state` and `history`
+- apply `NomialToBinary`
+- format labels: 0 = Benign, 1 = Malicious
+- (if any) replace missing `-` with `,,`
+
+**Random Sampling of 50/50 distribution**
+
+Use: [details in weka docs](https://waikato.github.io/weka-blog/posts/2019-01-30-sampling/)
+You may need to change the label class to Binary to enable sampling.
+
+```
+weka.filters.supervised.instance.SpreadSubsample -M 1.0
+```
+
 **Attribute descriptions**
 
 | Attribute         | Type     | Description                                                                 |
