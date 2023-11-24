@@ -1,6 +1,6 @@
-# Sensor datasets
+# Sensor Datasets
 
-Summary and description of datasets in this repository
+Summary and description of datasets in this repository.
 
 |   #   | Dataset                                                                     | Description                        | Files |    Rows | 
 |:-----:|:----------------------------------------------------------------------------|:-----------------------------------|:-----:|--------:|
@@ -38,35 +38,31 @@ Summary and description of datasets in this repository
 |       | — [CTU Malware Capture 34-1](iot-23/CTU-Malware-Capture-34-1-labeled.csv)   | malicious flows (24h)              |       |   23145 |
 |       | — [CTU Malware Capture 42-1](iot-23/CTU-Malware-Capture-42-1-labeled.csv)   | malicious flows (8h)               |       |    4426 |
 |       | — [CTU Malware Capture 44-1](iot-23/CTU-Malware-Capture-44-1-labeled.csv)   | malicious flows (2h)               |       |     237 |
+|       |                                                                             |                                    |       |         |                                                                           |                                    |       |         |
+| **6** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                    | **IoT device type prediction**     |  540  |         |
 |       |                                                                             |                                    |       |         |
-| **6** | **[Malware on IoT Dataset Aposemat](malware)**                              | **Network data (WireShark)**       |   1   |         |
-|       | — [CTU-IoT-Malware-Capture-34-1](malware/Malware_Capture-34-1-labeled.csv)  | _same as IoT-23/34-1_              |       |   23145 |
-|       |                                                                             |                                    |       |         |
-| **7** | **[IoT SENTINEL (Aalto)](iot-sentinel)**                                    | **IoT device type prediction**     |  540  |         |
-|       |                                                                             |                                    |       |         |
-| **8** | **[Mid-Atlantic CCDC](maccdc)**                                             | **Capture files (pcap)**           |   1   |         |
+| **7** | **[Mid-Atlantic CCDC](maccdc)**                                             | **Capture files (pcap)**           |   1   |         |
 |       | — [maccdc2012_00016](maccdc/maccdc2012_00016.csv)                           |                                    |       |   20000 |
 |       |                                                                             |                                    |       |         |
-| **9** | **[UNSW-NB15](unsw-nb15)**                                                  | **Network capture with attacks**   |   2   |         |
+| **8** | **[UNSW-NB15](unsw-nb15)**                                                  | **Network capture with attacks**   |   2   |         |
 |       | — [UNSW-NB15_1](unsw-nb15/unsw-nb15_1_sampled.csv)                          |                                    |       |    7000 |
 |       | — [UNSW-NB15_Training 10K](unsw-nb15/unsw-nb15_training_10K.csv)            |                                    |       |   10000 |
 
 **Notes:**
 
 - Some of these datasets are from here: <http://casas.wsu.edu/datasets/>
-- network pcap files: <https://www.netresec.com/index.ashx?page=PcapFiles/>
+- Network pcap files: <https://www.netresec.com/index.ashx?page=PcapFiles/>
 - Very large datasets (> 50 MB) are not included here => download from source
 
 **Potential Dataset**
 
-| Dataset           |    Network    | Year | Attack Categories                                                                         |
-|:------------------|:-------------:|:----:|:------------------------------------------------------------------------------------------| 
-| [CICIDS2017][DS5] |  Traditional  | 2017 | DoS, DDoS, SSH-Patator, Web, PortScan, FTP-Patator, Bot.                                  |
-| [CICIDS2018][DS6] |  Traditional  | 2018 | Bruteforce Web, DoS, DDoS, Botnet, Infilteration                                          |
-| [CTU-13][DS2]     |  Traditional  | 2011 | Botnet                                                                                    |
-| [Kyoto][DS3]      |  Traditional  | 2015 | Botnet                                                                                    |
-| [NSL-KDD][DS1]    |  Traditional  | 2009 | DoS, Probe, User 2 Root and Remote to User                                                |
-
+| Dataset           | Network     | Year | Attack Categories                                       |
+|:------------------|:------------|:----:|:--------------------------------------------------------|
+| [CICIDS2017][DS5] | Traditional | 2017 | DoS, DDoS, SSH-Patator, Web, PortScan, FTP-Patator, Bot |
+| [CICIDS2018][DS6] | Traditional | 2018 | Bruteforce Web, DoS, DDoS, Botnet, Infilteration        |
+| [CTU-13][DS2]     | Traditional | 2011 | Botnet                                                  |
+| [Kyoto][DS3]      | Traditional | 2015 | Botnet                                                  |
+| [NSL-KDD][DS1]    | Traditional | 2009 | DoS, Probe, User 2 Root and Remote to User              |
 
 [DS1]: https://www.unb.ca/cic/datasets/nsl.html
 [DS2]: https://www.stratosphereips.org/datasets-ctu13

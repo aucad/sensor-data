@@ -1,12 +1,10 @@
-# MavLab dataset
-
-**Description**
+# MavLab Dataset
 
 These datasets represent sensor events collected in the MavLab testbed
 during March and April of 2003.  During this time approximately six students
 worked in the lab on a regular basis.
 
-**Sensor layouts**
+### Sensor layouts
 
 Layout of the sensors in the testbed and a few image captures of the environment:
 
@@ -18,7 +16,7 @@ Layout of the sensors in the testbed and a few image captures of the environment
 
 ![sensor locations](./fig-6.jpeg)
 
-**Data files & Format**
+### Data files & Format
 
 - There is one sensor event on each line of the files. 
 - Category labels: `Date, Time AM/PM, Location, SensorID, Value`
@@ -28,7 +26,7 @@ Layout of the sensors in the testbed and a few image captures of the environment
 
 <http://casas.wsu.edu/datasets/mavlab.zip/>
 
-**Papers**
+### Papers
 
 G. M. Youngblood and D. Cook, Data mining for hierarchical
 model creation, IEEE Transactions on Systems, Man, and

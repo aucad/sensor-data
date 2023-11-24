@@ -1,10 +1,8 @@
 # Activity Recognition Dataset from University of Amsterdam
 
-**Description**
-
 Activity recognition dataset consisting of 28 days of sensor data.
 
-**Sensor layout**
+### Sensor layout
 
 > Figure 3. Floorplan of the house, red rectangle boxes indicate sensor nodes.
 
@@ -37,7 +35,7 @@ Activity ID list:
 - 15 - prepare Dinner
 - 17 - get drink
 
-**Data files & Format**
+### Data files & format
 
 | File            | Description                                         |
 |-----------------|-----------------------------------------------------|
@@ -47,7 +45,7 @@ Activity ID list:
 - time format: `DD-MMM-YYYY HH:MM:SS`
 - val: value of sensor (always 1)
 
-**Dataset source**
+### Dataset source
 
 <http://casas.wsu.edu/datasets/kasterenDataset.zip>
 
@@ -55,7 +53,7 @@ Acknowledgement: In creating the sensorGUI visualization tool some segments of
 support code from Emmanuel Munguia Tapia's dataset were used. His dataset and
 the original code can be found at: <http://courses.media.mit.edu/2004fall/mas622j/04.projects/home/>
 
-**Papers**
+### Papers
 
 This dataset and experiments performed on it, is carefully described in:
 Accurate Activity Recognition in a Home Setting T.L.M. van Kasteren, A. K.

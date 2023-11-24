@@ -3,8 +3,8 @@ from sys import argv
 from typing import List, Tuple
 
 """
-Small utility script for formatting raw IoT-23 dataset files. It 
-performs following preprocessing steps:
+Small utility script for formatting raw IoT-23 dataset files. 
+It performs following preprocessing steps:
 
 1. feature selection (only specified attributes are kept)
 2. replaces missing values (`-`) with actual null values  
@@ -17,7 +17,7 @@ This script takes as input (in order):
 Example:
 
 ```
-python src/transform_csv.py conn.log.labelled my_data.csv 
+python iot-23/transform.py conn.log.labelled my_data.csv 
 ```
 
 NOTE: Light manual editing is required prior to calling this script.
@@ -41,7 +41,7 @@ uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto ...
 ```
 
 remain (on line 1), followed by the data rows. After this modification
-this transformation script can be applied, to convert to CSV.
+this transformation script can be applied to convert to CSV.
 """
 
 SEP, COMMENT = '   ', '#'

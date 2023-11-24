@@ -1,7 +1,5 @@
 # UNSW-NB15
 
-**Description**
-
 The raw network packets of the UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of
 UNSW Canberra for generating a hybrid of real modern normal activities and synthetic contemporary attack behaviours. The
 tcpdump tool was utilised to capture 100 GB of the raw traffic (e.g., Pcap files). This dataset has nine types of
@@ -9,25 +7,30 @@ attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnais
 Bro-IDS tools are used and twelve algorithms are developed to generate totally 49 features with the class label. These
 features are described in UNSW-NB15_features.csv file.
 
-- The total number of records is two million and 540,044 which are stored in the four CSV files, namely,
-  UNSW-NB15_1.csv, UNSW-NB15_2.csv, UNSW-NB15_3.csv and UNSW-NB15_4.csv.
-- The ground truth table is named UNSW-NB15_GT.csv and the list of event file is called UNSW-NB15_LIST_EVENTS.csv.
-- A partition from this dataset was configured as a training set and testing set, namely, UNSW_NB15_training-set.csv and
-  UNSW_NB15_testing-set.csv respectively. The number of records in the training set is 175,341 records and the testing
-  set is 82,332 records from the different types, attack and normal.
+- The total number of records is two million and 540,044
+- The records are stored in the four CSV files: `UNSW-NB15_N.csv` (N=1...4)
+- The ground truth table is named `UNSW-NB15_GT.csv` and the list of event file is called `UNSW-NB15_LIST_EVENTS.csv`.
+- A partition from this dataset was configured as a training set and testing set, from the different types, attack and normal.
+  - `UNSW_NB15_training-set.csv` and `UNSW_NB15_testing-set.csv`, respectively
+  - The number of records in the training set is 175,341 records
+  - The testing set is 82,332 records
 
-**Data files & Format**
+### Data files & format
+
+Sampled and preprocessed records.
 
 | Name         | Details                        | Benign | Malicious |     | Total |  Split |
 |:-------------|--------------------------------|:------:|:---------:|-----|------:|-------:|
 | Sampled \#1  | Sampled from partition \#1     |  6796  |    204    |     |  7000 | 97 / 3 |
 | Training 10K | Sampled from 175K training set |  5000  |   5000    |     | 10000 |  50/50 |
 
-**Preprocessing** 
 
-- keep following attributes (31): 
+<details>
+  <summary>Preprocessing Details</summary> 
 
-  ```
+  <strong>Keep following attributes (31)</strong>
+
+  <pre>
   ct_  dst_ltm :: flw_http_mthd :: dst_sport_ltm :: dst_src_ltm :: src_dport_ltm :: srv_dst :: src_ltm :: srv_src   
      
   D    dbytes :: djit :: dload :: dloss :: dmeansz :: dpkts :: dur :: dtcpb :: dwin
@@ -38,15 +41,17 @@ features are described in UNSW-NB15_features.csv file.
         
   S    sbytes :: service :: sjit :: sloss :: smeansz :: spkts :: state :: stcpb :: stime :: swin               
      
-  T    trans_depth
-  ```  
+  T    trans_depth</pre>  
 
-- in Weka: `MergeManyValues -C 1 -L other N-M` applied to `proto` and `state`
-- format labels: 0 = Benign, 1 = Malicious
-- replace missing `-` with `,,`
-- apply `NomialToBinary`
+  <ul>
+    <li>In Weka: <code>MergeManyValues -C 1 -L other N-M</code> applied to <code>proto</code> and <code>state</code></li>
+    <li>Format labels: 0 = Benign, 1 = Malicious</li>
+    <li>Replace missing <code>-</code> with <code>,,</code></li>
+    <li>Apply <code>NomialToBinary</code></li>
+  </ul>
+</details>
 
-**Attribute descriptions**
+### Attribute descriptions
 
 | No. | Name               | Type      | Description                                                                                                                           |
 |:----|:-------------------|:----------|:--------------------------------------------------------------------------------------------------------------------------------------|
@@ -100,13 +105,13 @@ features are described in UNSW-NB15_features.csv file.
 | 48  | `attack_cat`       | nominal   | The name of each attack category. In this data set, nine categories                                                                   |
 | 49  | `Label`            | binary    | 0 for normal and 1 for attack records                                                                                                 |
 
-**Dataset source**
+### Dataset source
 
 <https://research.unsw.edu.au/projects/unsw-nb15-dataset/>
 
-(see: _"The UNSW-NB15 source files ... can be downloaded from HERE."_)
+See: _"The UNSW-NB15 source files ... can be downloaded from HERE."_
 
-**Reuse & Papers**
+### Terms of use & papers
 
 The details of the UNSW-NB15 dataset were published in following the papers. For the academic/public use of this dataset, the authors have to cities the following papers:
 

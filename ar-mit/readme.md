@@ -1,18 +1,16 @@
 # Activity Recognition in the Home Setting Using Simple and Ubiquitous Sensors
 
-**Description**
-
 Between 80-100 reed switch sensors where installed in two single-person
 apartments collecting data about human activity for two weeks. The sensors
 were installed in everyday objects such as drawers, refrigerators, containers,
 etc to record opening-closing events (activation deactivation events) as
 the subject carried out everyday activities.
 
-**Sensor layouts**
+### Sensor layouts
 
 ![locations](locations.jpeg)
 
-**Data files & Format**
+### Data files & format
 
 Each directory contains the data of a different subject and each subdirectory
 contains the following files:
@@ -27,11 +25,11 @@ contains the following files:
 - where time is in the `hh:mm:ss` format
 - NOTE: `ACTIVITY_LABEL` = Subcategory
 
-**Dataset source**
+### Dataset source
 
 <https://courses.media.mit.edu/2004fall/mas622j/04.projects/home/>
 
-**Papers**
+### Papers
 
 This directory contains the data collected for the thesis:
 

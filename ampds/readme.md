@@ -1,6 +1,4 @@
-# AMPds2: The Almanac of Minutely Power dataset (Version 2)
-
-**Description**
+# AMPds2: The Almanac of Minutely Power Dataset (Version 2)
 
 This dataset is intended to be multi-year capture of the consumption of my
 house. This dataset contains electricity, water, and natural gas measurements at
@@ -13,17 +11,17 @@ same period of time as AMPds and includes a summary of climate normals observed
 from the years between 1981-2010. Billing data from utility companies is also
 included for cost/benefit analysis. (2015-05-07)
 
-**Sensor layout**
+### Sensor layout
 
 > Figure 1: Test House Property. Surrounding area of house: (a) property survey
-and (b) location in surrounding block. Yellow lines show 1 m elevation contours.
+and (b) location in surrounding block. Yellow lines show 1 m elevation contours.
 
 From: Electricity, water, and natural gas consumption of a residential house in
 Canada from 2012 to 2014
 
 ![sensor locations](locations.jpeg)
 
-**Data files & Format**
+### Data files & format
 
 Files are split into smaller files (100,000 rows/each)
 
@@ -33,11 +31,11 @@ Files are split into smaller files (100,000 rows/each)
 | NaturalGas_FRG  | Furnace Gas Sub-Meter Readings      |     4     |   1051200    |
 | Water_WHW       | Whole-House Water Meter Readings    |     4     |   1051200    |
 
-**Dataset source**
+### Dataset source
 
 <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FIE0S4/>
 
-**Terms of Use**
+### Terms of use
 
 Creative Commons Attribution licence (CC-BY) see
 <https://creativecommons.org/licenses/by/4.0/>

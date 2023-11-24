@@ -1,7 +1,5 @@
 # Stratophere Laboratory’s Aposemat IoT-23
 
-**Description**
-
 A labeled dataset with malicious and benign IoT network traffic.
 
 IoT-23 is a new dataset of network traffic from Internet of Things (IoT)
@@ -13,7 +11,9 @@ goal is to offer a large dataset of real and labeled IoT malware infections and
 IoT benign traffic for researchers to develop machine learning algorithms. This
 dataset and its research is funded by Avast Software, Prague.
 
-**Data files & Format**
+### Data files & format
+
+These files have been preprocessed: changed to CSV format, and missing values (`-`) have been replaced with null values.
 
 | Name                     | Details         | Benign | Malicious |     |   Total |       Split |
 |:-------------------------|:----------------|:------:|:---------:|-----|--------:|------------:|
@@ -28,26 +28,23 @@ dataset and its research is funded by Avast Software, Prague.
 | CTU-Malware-Capture-44-1 | Mirai           |  211   |    26     |     |     237 |     90 / 10 |
 | CTU-Malware-Capture-1-1  | Hide and Seek   | 469275 |  539473   |     | 1008748 | 46.5 / 53.5 |
 
-These files have been preprocessed: changed to CSV format, and missing values (`-`) have been
-replaced with null values.
+<details>
+  <summary>Preprocessing Details</summary>
+  <ul>
+    <li>In Weka: <code>MergeManyValues -C 1 -L other N-M</code> applied to <code>proto</code> and <code>conn_state</code> and <code>history</code></li>
+    <li>Apply <code>NomialToBinary</code></li>
+    <li>Format labels: 0 = Benign, 1 = Malicious</li>
+    <li>Replace missing <code>-</code> with <code>,,</code></li>
+  </ul>
+  <strong>Random Sampling of 50/50 distribution</strong>
 
-**Preprocessing**
+  See details in weka docs: <a href="https://waikato.github.io/weka-blog/posts/2019-01-30-sampling">https://waikato.github.io/weka-blog/posts/2019-01-30-sampling</a>
+  <br/>You may need to change the label class to Binary to enable sampling.
 
-- in Weka: `MergeManyValues -C 1 -L other (index range)` applied to `proto` and `conn_state` and `history`
-- apply `NomialToBinary`
-- format labels: 0 = Benign, 1 = Malicious
-- (if any) replace missing `-` with `,,`
+  <pre>weka.filters.supervised.instance.SpreadSubsample -M 1.0</pre>
+</details>
 
-**Random Sampling of 50/50 distribution**
-
-Use: [details in weka docs](https://waikato.github.io/weka-blog/posts/2019-01-30-sampling/)
-You may need to change the label class to Binary to enable sampling.
-
-```
-weka.filters.supervised.instance.SpreadSubsample -M 1.0
-```
-
-**Attribute descriptions**
+### Attribute descriptions
 
 | Attribute         | Type     | Description                                                                 |
 |:------------------|:---------|:----------------------------------------------------------------------------|
@@ -75,7 +72,7 @@ weka.filters.supervised.instance.SpreadSubsample -M 1.0
 | `label`           | `str`    | Type of capture, benign or malicious                                        |
 | `detailed-label`  | `str`    | Type of the malicious capture                                               |
 
-**Attribute details**
+### Attribute details
 
 `conn_state` ([source](https://www.inet.tu-berlin.de/fileadmin/fg234_teaching/SS12/IM_SS12/im12_03_flow_bro.pdf#page=9)): 
 
@@ -87,9 +84,7 @@ weka.filters.supervised.instance.SpreadSubsample -M 1.0
 | OTH   | No SYN seen, partial connection            |
 | RSTO  | Connection established, originator aborted |
 
-
-
-**Label descriptions**
+### Label descriptions
 
 | Label   | Description                                                                                                                                             |
 |:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -112,14 +107,13 @@ of a service attack
 More details and explanation of data and
 labels: <https://www.stratosphereips.org/datasets-iot23/>
 
-**Dataset source**
+### Dataset source
 
 <https://www.stratosphereips.org/datasets-iot23/>
 
-**Terms of Use**
+### Terms of use
 
 If you are using this dataset for your research, please reference it as
 “Sebastian Garcia, Agustin Parmisano, & Maria Jose Erquiaga. (2020). IoT-23: A
 labeled dataset with malicious and benign IoT network traffic (Version 1.0.0)
 [Data set]. Zenodo. <http://doi.org/10.5281/zenodo.4743746>”.
-

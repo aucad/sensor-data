@@ -1,6 +1,4 @@
-# Aalto University IoT SENTINEL: IoT devices captures
-
-**Description**
+# Aalto University IoT SENTINEL: IoT Devices Captures
 
 This dataset was used for experiments regarding IoT device-type identification.
 
@@ -12,7 +10,7 @@ directory. Files are named Setup-X-Y-STA.pcap where X is the person realizing
 the setup and Y is the sequence number of the given capture. The file
 _iotdevice-mac.txt contains the MAC address of the considered IoT device.
 
-**Devices**
+### Devices
 
 | #   | Identifier        | Device Model                                           | WiFi | ZigBee | Ethernet | Z-Wave | Other |
 |-----|:------------------|:-------------------------------------------------------|------|--------|----------|--------|-------|
@@ -44,11 +42,11 @@ _iotdevice-mac.txt contains the MAC address of the considered IoT device.
 | 26  | SmarterCoffee     | Smarter SmarterCoffee coffee machine SMC10-EU          | ✔    | -      | -        | -      | -     |
 | 27  | iKettle2          | Smarter iKettle 2.0 water kettle SMK20-EU              | ✔    | -      | -        | -      | -     |
 
-**Dataset source**
+### Dataset source
 
 <https://research.aalto.fi/en/datasets/iot-devices-captures>
 
-**Terms of Use**
+### Terms of Use
 
 Please refer to the following publication when citing this dataset:
 
